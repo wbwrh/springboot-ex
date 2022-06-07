@@ -12,10 +12,15 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        return "Hello World!";
+        return "Hello Will!";
     }
 
     public static void main(String[] args) {
+
+        for(int x = 0; x < 5; x++)
+        {
+            return x;
+        }
         SpringApplication.run(DemoApplication.class, args);
     }
 
