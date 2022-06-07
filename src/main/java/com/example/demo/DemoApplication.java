@@ -19,7 +19,7 @@ public class DemoApplication {
 
         for(int x = 0; x < 5; x++)
         {
-            return x;
+            System.out.print(x);
         }
         SpringApplication.run(DemoApplication.class, args);
     }
